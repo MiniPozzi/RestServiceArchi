@@ -6,79 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6404ad32-945c-430f-95c0-96eaf172156a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ProjetRest_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/aopalliance_repackaged_2_3_0_b10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/java_json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjetRest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ws.rs-api-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jersey-client.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jersey-common.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jersey-container-servlet-core.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jersey-container-servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jersey-server.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/META-INF/ProjetRest.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/com/rest/objects/FileShared.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/com/rest/objects/Manager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/com/rest/objects/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/com/rest/objects/Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/com/rest/services/FileService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/com/rest/services/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/properties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/soap_services.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/aopalliance-repackaged-2.3.0-b10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/asm-debug-all-5.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/hk2-api-2.3.0-b10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/hk2-locator-2.3.0-b10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/hk2-utils-2.3.0-b10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/java-json.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/javassist-3.18.1-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/javax.annotation-api-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/javax.inject-2.3.0-b10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/javax.servlet-api-3.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/javax.ws.rs-api-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/jaxb-api-2.2.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/jersey-client.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/jersey-common.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/jersey-container-servlet-core.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/jersey-container-servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/jersey-core-1.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/jersey-guava-2.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/jersey-media-multipart-2.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/jersey-server.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/mimepull.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/org.osgi.core-4.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/persistence-api-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ProjetRest/META-INF/ProjetRest.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ProjetRest/com/rest/objects/FileShared.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ProjetRest/com/rest/objects/Manager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ProjetRest/com/rest/objects/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ProjetRest/com/rest/objects/Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ProjetRest/com/rest/services/FileService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ProjetRest/com/rest/services/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ProjetRest/properties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ProjetRest/soap_services.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/properties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/soap_services.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rest/objects/FileShared.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rest/objects/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rest/objects/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rest/objects/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rest/services/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rest/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="6404ad32-945c-430f-95c0-96eaf172156a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rest/objects/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="68">
               <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -178,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rest/objects/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="68">
               <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -190,8 +118,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/rest/services/FileService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="66" lean-forward="true" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
+            <state relative-caret-position="624">
+              <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -263,6 +191,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,8 +233,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -429,14 +357,16 @@
       <workItem from="1558448608829" duration="16850000" />
       <workItem from="1558507904705" duration="11000" />
       <workItem from="1558545754019" duration="2929000" />
+      <workItem from="1558552979322" duration="307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26790000" />
+    <option name="totallyTimeSpent" value="27097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -483,10 +413,41 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/java/io/FileInputStream.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rest/objects/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rest/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/soap_services.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -501,10 +462,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/soap_services.sql">
+    <entry file="file://$PROJECT_DIR$/src/com/rest/objects/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="68">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rest/objects/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -515,54 +489,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rest/objects/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rest/objects/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rest/objects/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rest/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rest/services/FileService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="66" lean-forward="true" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
+        <state relative-caret-position="624">
+          <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
