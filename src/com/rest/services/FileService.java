@@ -11,6 +11,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.io.*;
+import java.nio.file.Files;
 
 @Path("fileService")
 public class FileService {
@@ -31,16 +32,18 @@ public class FileService {
         {
             File file = new File(FILE_PATH+fileShared.getFilename());
             Response.ResponseBuilder response = Response.ok((Object) file);
-            response.header("Content-Disposition", "attachment; filename=newfile.txt");
+            response.header("Content-Disposition", "attachment; filename="+fileShared.getFilename());
 
             return response.build();
         }
+        
+        // Renvoie une erreur 404 si le token est incorrect
         return Response.status(Response.Status.NOT_FOUND).build();
     }
 
     /**
      * Met un fichier sur le serveur en lui ajoutant un token d'accès
-     * @param fileInputStream
+     * @param fileInputStream le fichier en mode lecture
      * @param contentDispositionHeader
      * @return la réponse en JSON, vrai ou faux
      */
@@ -100,14 +103,21 @@ public class FileService {
      * Suppression d'un fichier avec le token
      * @param token le token d'accès au fichier
      * @return une réponse en Json soit vrai ou faux
-     * @throws JSONException
+     * @throws JSONException Une exception
      */
     @DELETE
     @Path("/deleteFile/{token}")
     @Produces(MediaType.APPLICATION_JSON)
     public String deleteFile(@PathParam("token") String token) throws JSONException {
         //TODO faire la suppresion de fichier dans le serveur TOMCAT
-        boolean isDeleted = Manager.deleteFile(token);
+        boolean isDeleted = false;
+
+        try {
+            Files.deleteIfExists(new File(Manager.downloadFile(token).getFilename()).toPath());
+            isDeleted = Manager.deleteFile(token);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         // Creation d'un JSON pour la réponse
         JSONObject object = new JSONObject();

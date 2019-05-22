@@ -12,10 +12,10 @@
   </head>
   <body>
   $END$
-  <a href="rest/files/get">Download Text File</a>
+  <a href="rest/fileService/download">Download Text File</a>
 
   <h2>File Upload Example</h2>
-  <form action="rest/files/upload" method="post" enctype="multipart/form-data">
+  <form action="rest/fileService/upload" method="post" enctype="multipart/form-data">
     <p>
       Select a file : <input type="file" name="file" size="45" />
     </p>

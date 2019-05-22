@@ -6,6 +6,10 @@ public class FileShared {
 
     private String accessToken;
 
+    public FileShared() {
+
+    }
+
     public FileShared(String filename) {
         this.filename = filename;
         this.accessToken = Utils.createToken();
