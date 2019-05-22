@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="connection.password"/>
+    <entry key="connection.url">jdbc:mysql://localhost/soap_services?useJDBCCompliantTimezoneShift=true&amp;serverTimezone=UTC&amp;createDatabaseIfNotExist=true</entry>
+    <entry key="connection.username">root</entry>
+</properties>

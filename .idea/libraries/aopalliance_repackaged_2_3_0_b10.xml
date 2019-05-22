@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="aopalliance-repackaged-2.3.0-b10">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/aopalliance-repackaged-2.3.0-b10.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/asm-debug-all-5.0.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/hk2-api-2.3.0-b10.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/hk2-locator-2.3.0-b10.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/hk2-utils-2.3.0-b10.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/javassist-3.18.1-GA.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/javax.annotation-api-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/javax.inject-2.3.0-b10.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/javax.servlet-api-3.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/javax.ws.rs-api-2.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/jaxb-api-2.2.7.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/jersey-client.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/jersey-common.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/jersey-container-servlet-core.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/jersey-container-servlet.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/jersey-core-1.9.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/jersey-guava-2.13.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/jersey-media-multipart-2.13.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/jersey-server.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/mimepull.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/osgi-resource-locator-1.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/persistence-api-1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/validation-api-1.1.0.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/org.osgi.core-4.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/jerseyjars/jerseyjars/org.osgi.core-4.2.0.jar!/OSGI-OPT/src" />
+    </SOURCES>
+  </library>
+</component>
