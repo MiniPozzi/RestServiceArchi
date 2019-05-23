@@ -15,9 +15,9 @@ public abstract class Manager {
      */
     private static Connection setConnection() {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             Properties properties = new Properties();
-            properties.loadFromXML(new FileInputStream("C:\\Users\\Pozzi\\Documents\\S8\\ARCHI2\\ProjetRest\\resources\\properties.xml"));
+            properties.loadFromXML(new FileInputStream("D:\\Documents\\polytech\\S8\\RestServiceArchi\\resources\\properties.xml"));
 
             String url = properties.get("connection.url").toString();
             String password = properties.get("connection.password").toString();
@@ -82,10 +82,13 @@ public abstract class Manager {
      */
     public static User logIn(String username, String password) {
         try {
-            PreparedStatement statement = connection.prepareStatement("SELECT firstName, lastName FROM user WHERE username = ? AND password = ?");
-            statement.setString(1, username);
-            statement.setString(2, password);
-            ResultSet resultSet = statement.executeQuery();
+            String statement = "SELECT firstName, lastName FROM user WHERE username = ? AND password = ?";
+            PreparedStatement preparedStatement = connection.prepareStatement(statement);
+            preparedStatement.setString(1, username);
+            preparedStatement.setString(2, password);
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            System.out.println("password : " + password);
 
             User user = null;
             while (resultSet.next()) {

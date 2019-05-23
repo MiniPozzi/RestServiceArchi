@@ -7,28 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6404ad32-945c-430f-95c0-96eaf172156a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/ProjetRest_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ProjetRest_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9c1d2727-1bfe-4307-bdf8-f0ddec7c3e5d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9c1d2727-1bfe-4307-bdf8-f0ddec7c3e5d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/aopalliance_repackaged_2_3_0_b10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/java_json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetRest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetRest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/META-INF/ProjetRest.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/com/rest/objects/FileShared.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/com/rest/objects/FileShared.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/com/rest/objects/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/com/rest/objects/Manager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/com/rest/services/FileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/com/rest/services/FileService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/com/rest/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/WEB-INF/classes/com/rest/services/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjetRest_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetRest/META-INF/ProjetRest.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetRest/com/rest/objects/FileShared.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetRest/com/rest/objects/FileShared.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetRest/com/rest/objects/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetRest/com/rest/objects/Manager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetRest/com/rest/services/FileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetRest/com/rest/services/FileService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetRest/com/rest/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetRest/com/rest/services/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rest/objects/FileShared.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rest/objects/FileShared.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rest/objects/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rest/objects/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rest/objects/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rest/objects/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rest/services/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rest/services/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rest/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rest/services/UserService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,13 +67,17 @@
     </expand>
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="378">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -88,54 +85,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/rest/services/FileService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+            <state relative-caret-position="231">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/rest/objects/Manager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://9c1d2727-1bfe-4307-bdf8-f0ddec7c3e5d/schema/soap_services/table/file">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/properties.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="e#264#269#0" expanded="true" />
-                <element signature="e#287#292#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/soap_services.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -171,9 +125,10 @@
         <option value="$PROJECT_DIR$/src/com/rest/User.java" />
         <option value="$PROJECT_DIR$/src/com/rest/UserService.java" />
         <option value="$PROJECT_DIR$/src/com/rest/Manager.java" />
-        <option value="$PROJECT_DIR$/src/com/rest/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/com/rest/objects/FileShared.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/com/rest/objects/User.java" />
+        <option value="$PROJECT_DIR$/src/com/rest/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/com/rest/objects/Manager.java" />
         <option value="$PROJECT_DIR$/src/com/rest/services/FileService.java" />
       </list>
@@ -193,9 +148,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="950" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -203,64 +158,69 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ProjetRest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetRest" type="462c0819:PsiDirectoryNode" />
+              <item name="RestServiceArchi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestServiceArchi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ProjetRest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetRest" type="462c0819:PsiDirectoryNode" />
+              <item name="RestServiceArchi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestServiceArchi" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ProjetRest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetRest" type="462c0819:PsiDirectoryNode" />
+              <item name="RestServiceArchi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestServiceArchi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ProjetRest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetRest" type="462c0819:PsiDirectoryNode" />
+              <item name="RestServiceArchi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestServiceArchi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ProjetRest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetRest" type="462c0819:PsiDirectoryNode" />
+              <item name="RestServiceArchi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestServiceArchi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
               <item name="objects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ProjetRest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetRest" type="462c0819:PsiDirectoryNode" />
+              <item name="RestServiceArchi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestServiceArchi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ProjetRest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetRest" type="462c0819:PsiDirectoryNode" />
+              <item name="RestServiceArchi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestServiceArchi" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ProjetRest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetRest" type="462c0819:PsiDirectoryNode" />
+              <item name="RestServiceArchi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestServiceArchi" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RestServiceArchi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="com.mysql.cj.jdbc.Driver&#10;mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558561345544" />
@@ -268,7 +228,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/soap_services.sql" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20689656" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
@@ -296,6 +256,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="ProjetRest:war exploded">
           <settings>
@@ -384,25 +345,25 @@
       <workItem from="1558507904705" duration="11000" />
       <workItem from="1558545754019" duration="2929000" />
       <workItem from="1558552979322" duration="7831000" />
+      <workItem from="1558593406097" duration="4393000" />
+      <workItem from="1558616071188" duration="15948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34621000" />
+    <option name="totallyTimeSpent" value="54962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.12885906" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.13203754" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
@@ -410,20 +371,22 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" weight="0.32904148" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.11756374" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.40452617" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.36916548" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Application Servers" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.3286119" />
+      <window_info anchor="bottom" id="Statistic" order="16" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
-      <window_info active="true" anchor="right" id="Database" order="5" visible="true" weight="0.3489933" />
+      <window_info anchor="right" id="Database" order="5" weight="0.34852546" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
@@ -433,6 +396,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/rest/services/FileService.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/rest/UserDao.java" />
     <entry file="file://$PROJECT_DIR$/src/com/rest/UserAppConfig.java" />
@@ -440,56 +419,10 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/java/io/FileInputStream.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rest/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rest/objects/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rest/objects/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9c1d2727-1bfe-4307-bdf8-f0ddec7c3e5d/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rest/objects/FileShared.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProjetRest.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9c1d2727-1bfe-4307-bdf8-f0ddec7c3e5d/console.sql" />
     <entry file="file://$PROJECT_DIR$/resources/properties.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="126">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="e#264#269#0" expanded="true" />
@@ -498,41 +431,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ProjetRest.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://9c1d2727-1bfe-4307-bdf8-f0ddec7c3e5d/schema/soap_services/table/file">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="4ff1c285-85cb-4dfc-90ef-d39f7725888b">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/soap_services.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="63">
           <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rest/objects/Manager.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rest/objects/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="16">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rest/objects/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="8" column="89" selection-start-line="8" selection-start-column="89" selection-end-line="8" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://9c1d2727-1bfe-4307-bdf8-f0ddec7c3e5d/schema/soap_services/table/file">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/com/rest/objects/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rest/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rest/objects/FileShared.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="378">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rest/services/FileService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state relative-caret-position="231">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -561,7 +542,6 @@
             <option name="proportions">
               <list>
                 <option value="0.20689656" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -629,7 +609,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql-connector-java-8.0.16</last-edited>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

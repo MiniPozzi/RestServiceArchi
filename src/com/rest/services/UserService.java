@@ -7,6 +7,7 @@ import com.rest.objects.Utils;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
@@ -29,16 +30,28 @@ public class UserService {
      */
     @POST
     @Path("/login")
-    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
     public String authenticateUser(@FormParam("username") String username,
                                    @FormParam("password") String password) {
 
         try {
-            boolean isCorrect  = authenticate(username, password);
+            User user = authenticate(username, Utils.passwordDigest(password));
 
             // Creation d'un JSON pour la réponse
             JSONObject object = new JSONObject();
-            object.put("response", isCorrect);
+
+            if (user != null) {
+                object.put("response", true);
+                object.put("username",user.getUsername());
+                object.put("lastName", user.getLastName());
+                object.put("firstName", user.getFirstName());
+                object.put("password", user.getPassword());
+            }
+            else
+                object.put("response", false);
+
+            System.out.println(object.toString());
 
             return object.toString();
         } catch (Exception e) {
@@ -48,19 +61,17 @@ public class UserService {
 
     /**
      * Vérifie le nom d'utilisateur et le mot de passe dans la bdd
-     * @param username (username)
-     * @param password (not Hash)
-     * @return vrai si username et password sont correct faux à l'inversse
+     * @param username Le surnom de l'utilisateur
+     * @param password Mot de passe haché
+     * @return L'utilisateur en question
      */
-    private boolean authenticate(String username, String password) {
-        // Hash the password in SHA-256
-        String passwordClient = Utils.passwordDigest(password);
-        User user = Manager.logIn(username, passwordClient);
+    private User authenticate(String username, String password) {
+
+        User user = Manager.logIn(username, password);
 
         // Retourne false si le username ou password sont incorrect
-        if (user == null)
-            return false;
-        return true;
+
+        return user;
     }
 
     /**
@@ -74,12 +85,14 @@ public class UserService {
     @POST
     @Path("/register")
     @Produces(MediaType.APPLICATION_JSON)
+    @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
     public String create(@FormParam("username") String username,
                          @FormParam("password") String password,
-                         @FormParam("fistName") String firstName,
-                         @FormParam("lastName") String lastName) throws JSONException {
+                         @FormParam("firstName") String firstName,
+                         @FormParam("lastName") String lastName,
+                         @Context HttpServletResponse servletResponse) throws JSONException {
 
-        User user = new User(username,Utils.passwordDigest(password),firstName,lastName);
+        User user = new User(username,password,firstName,lastName);
         boolean isCorrect = Manager.createUser(user);
 
         // Creation d'un JSON pour la réponse

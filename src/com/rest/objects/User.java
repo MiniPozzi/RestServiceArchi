@@ -35,7 +35,7 @@ public class User {
     }
 
     public void setPassword(String password) {
-        this.password = Utils.passwordDigest(password);
+        this.password = password;
     }
 
     public String getFirstName() {

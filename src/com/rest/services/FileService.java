@@ -50,6 +50,7 @@ public class FileService {
     @POST
     @Path("/upload")
     @Consumes(MediaType.MULTIPART_FORM_DATA)
+    @Produces(MediaType.APPLICATION_JSON)
     public String uploadFile(
             @FormDataParam("file") InputStream fileInputStream,
             @FormDataParam("file") FormDataContentDisposition contentDispositionHeader) {
